@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.searchWrapper {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  font-size: 20px;
+}
+
+.searchBtn {
+  padding: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.searchInput {
+  padding-left: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.countryList {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.countryCard {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-right: 60px;
+  margin-left: 60px;
+  cursor: pointer;
+}
